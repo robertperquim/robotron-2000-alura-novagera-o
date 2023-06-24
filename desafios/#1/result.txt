@@ -1,0 +1,5 @@
+Odesafio era trocaro a frase da tag p 
+
+para fazer isso basta 
+
+document.getElementById("texto").innerText="Texto novo"

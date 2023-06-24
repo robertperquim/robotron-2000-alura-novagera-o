@@ -1,0 +1,10 @@
+o desafio fazer um arry functionpara imprimir no console "fui clicado" toda vez que clicar no botao 
+
+para fazer isso basta 
+
+const enviarNotas = document.querySelector("#calcular");
+const resultado = document.querySelector(".resultado");
+
+enviarNotas.addEventListener("click", () => {
+  resultado.innerHTML = "Fui clicado";
+});
